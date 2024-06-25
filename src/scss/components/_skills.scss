@@ -1,0 +1,90 @@
+.skills {
+  padding: 3rem;
+  background-color: #f9f9f9;
+  overflow: hidden;
+
+  &__title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+  }
+
+  &__category {
+    padding: 2rem;
+
+    &__container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+
+      @include responsive(small) {
+        display: flex;
+        gap: 2rem;
+        overflow-x: scroll;
+        width: auto;
+        height: fit-content;
+      }
+    }
+
+    &__title {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .skill {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, opacity 0.3s;
+    animation: float 2s ease-in-out infinite;
+
+    &__logo {
+      max-width: 48px;
+      margin-bottom: 1rem;
+    }
+
+    &__name {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    &__level {
+      background: #e0e0e0;
+      border-radius: 5px;
+      overflow: hidden;
+      height: 1rem;
+      margin-top: 1rem;
+
+      &-bar {
+        height: 100%;
+        background: var(--color-primary);
+        border-radius: 5px 0 0 5px;
+      }
+
+      @include responsive(small) {
+        width: 10rem;
+        height: 20rm;
+      }
+    }
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

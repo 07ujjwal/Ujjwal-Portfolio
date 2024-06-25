@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ujjwal</title>
+
+    <link rel="stylesheet" href="./src/scss/styles.scss" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="./assets/images/icon.png"
+          alt="logo"
+          class="nav__logo"
+          id="logo"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Portfolio </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Blog/Articles</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--5">Contact</a>
+          </li>
+        </ul>
+        <button
+          class="nav__toggle nav__toggle--open"
+          aria-label="open navigation"
+        >
+          &#9776;
+        </button>
+        <button
+          class="nav__toggle nav__toggle--close"
+          aria-label="close navigation"
+        >
+          &times;
+        </button>
+      </nav>
+      <div class="header__content">
+        <div class="header__title">
+          <h1>
+            Welcome 👋<br />
+            <span class="highlight">My Self Ujjwal Kumar Singh</span>
+          </h1>
+          <img
+            src="assets/images/ujjwal.jpg"
+            alt="Your Name"
+            class="header__img welcome-animation"
+          />
+          <h4>Showcasing my work and skills</h4>
+          <button class="btn--text btn--scroll-to" id="scrollToContact">
+            Contact Me &DownArrow;
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-me" id="section--1">
+      <div class="about-me__content">
+        <div class="about-me__text">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm Ujjwal, a passionate web developer with a love for
+            creating dynamic and beautiful web applications. I specialize in
+            MERN stack development and have a keen interest in learning new
+            technologies and frameworks.
+          </p>
+        </div>
+        <div class="about-me__image">
+          <img src="assets/images/ujjwal.jpg" alt="Ujjwal" />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="section--2">
+      <h2 class="projects__title">My Projects</h2>
+      <div class="projects__container">
+        <div class="project-card">
+          <img
+            src="./assets//images/background-2.jpg"
+            alt="Project Image"
+            class="project-card__image"
+          />
+          <div class="project-card__content">
+            <h3 class="project-card__title">Project Name</h3>
+            <p class="project-card__description">
+              A short description of the project goes here.
+            </p>
+            <p class="project-card__stack">Tech Stack: HTML, CSS, JavaScript</p>
+            <a
+              href="https://github.com/your-repo-link"
+              class="project-card__link"
+              >GitHub</a
+            >
+            <a href="https://deployment-link.com" class="project-card__link"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+        <!-- Repeat for other projects -->
+        <div class="project-card">
+          <img
+            src="./assets//images/background-2.jpg"
+            alt="Project Image"
+            class="project-card__image"
+          />
+          <div class="project-card__content">
+            <h3 class="project-card__title">Project Name</h3>
+            <p class="project-card__description">
+              A short description of the project goes here.
+            </p>
+            <p class="project-card__stack">Tech Stack: HTML, CSS, JavaScript</p>
+            <a
+              href="https://github.com/your-repo-link"
+              class="project-card__link"
+              >GitHub</a
+            >
+            <a href="https://deployment-link.com" class="project-card__link"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="./assets//images/background-2.jpg"
+            alt="Project Image"
+            class="project-card__image"
+          />
+          <div class="project-card__content">
+            <h3 class="project-card__title">Project Name</h3>
+            <p class="project-card__description">
+              A short description of the project goes here.
+            </p>
+            <p class="project-card__stack">Tech Stack: HTML, CSS, JavaScript</p>
+            <a
+              href="https://github.com/your-repo-link"
+              class="project-card__link"
+              >GitHub</a
+            >
+            <a href="https://deployment-link.com" class="project-card__link"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+
+    <section class="skills" id="section--3">
+      <h2 class="skills__title">Technical Skills</h2>
+      <div class="skills__container">
+        <div class="skills__category">
+          <h2 class="skills__category__title">Languages</h2>
+
+          <div class="skills__category__container">
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/c-programming.png"
+                alt="C/C++"
+                class="skill__logo"
+              />
+              <span class="skill__name">C/C++</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/javascript.png"
+                alt="JavaScript"
+                class="skill__logo"
+              />
+              <span class="skill__name">JavaScript</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h2 class="skills__category__title">Backend</h2>
+
+          <div class="skills__category__container">
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/nodejs.png"
+                alt="Node.js"
+                class="skill__logo"
+              />
+              <span class="skill__name">Node.js</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/ios/50/000000/express-js.png"
+                alt="Express.js"
+                class="skill__logo"
+              />
+              <span class="skill__name">Express.js</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h2 class="skills__category__title">Frontend</h2>
+
+          <div class="skills__category__container">
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/react-native.png"
+                alt="React"
+                class="skill__logo"
+              />
+              <span class="skill__name">React</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/fluency/48/000000/tailwind-css.png"
+                alt="TailwindCSS"
+                class="skill__logo"
+              />
+              <span class="skill__name">TailwindCSS</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/html-5.png"
+                alt="HTML"
+                class="skill__logo"
+              />
+              <span class="skill__name">HTML</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/css3.png"
+                alt="CSS"
+                class="skill__logo"
+              />
+              <span class="skill__name">CSS</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                alt="Bootstrap"
+                class="skill__logo"
+              />
+              <span class="skill__name">Bootstrap</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h2 class="skills__category__title">Other FrameWorks</h2>
+
+          <div class="skills__category__container">
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/ios/50/000000/nextjs.png"
+                alt="Next.js"
+                class="skill__logo"
+              />
+              <span class="skill__name">Next.js</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 40%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h2 class="skills__category__title">Databases</h2>
+
+          <div class="skills__category__container">
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/postgresql.png"
+                alt="PostgreSQL"
+                class="skill__logo"
+              />
+              <span class="skill__name">PostgreSQL</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/mongodb.png"
+                alt="MongoDB"
+                class="skill__logo"
+              />
+              <span class="skill__name">MongoDB</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h2 class="skills__category__title">Developers Tools</h2>
+
+          <div class="skills__category__container">
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/dusk/64/000000/postman-api.png"
+                alt="Postman"
+                class="skill__logo"
+              />
+              <span class="skill__name">Postman</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+                alt="VS Code"
+                class="skill__logo"
+              />
+              <span class="skill__name">VS Code</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <img
+                src="https://img.icons8.com/fluent/48/000000/github.png"
+                alt="GitHub"
+                class="skill__logo"
+              />
+              <span class="skill__name">GitHub</span>
+              <div class="skill__level">
+                <div class="skill__level-bar" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="activities" id="section--4">
+      <div class="activities__container">
+        <div class="activities__vlogs-articles">
+          <h3 class="activities__title">Vlogs & Articles</h3>
+          <ul class="activities__list">
+            <li><a href="#">Vlog 1: Title</a></li>
+            <li><a href="#">Article 1: Title</a></li>
+            <li><a href="#">Vlog 2: Title</a></li>
+            <li><a href="#">Article 2: Title</a></li>
+            <!-- Add more vlogs and articles as needed -->
+          </ul>
+        </div>
+        <div class="activities__extracurricular">
+          <h3 class="activities__title">Extracurricular Activities</h3>
+          <div class="activities__item">
+            <h4>
+              DRISTI (Directing Rural India towards Social and Technological
+              Integration)
+            </h4>
+            <p><strong>July 2022 – Present</strong></p>
+            <ul>
+              <li>
+                Lead a team of over 10 individuals to orchestrate initiatives
+                fostering rural welfare, positively impacting 100+ families.
+              </li>
+              <li>
+                Drove educational initiatives for children and empowered women
+                through skill development programs, increasing literacy rates by
+                30%.
+              </li>
+            </ul>
+          </div>
+          <div class="activities__item">
+            <h4>ACM, Association for Computing Machinery —— BIT Mesra</h4>
+            <p><strong>Sept 2022 - Oct 2023</strong></p>
+            <ul>
+              <li>
+                Conducted research contributing to a 20% increase in engagement
+                on the organization’s platforms.
+              </li>
+              <li>
+                Fostered a supportive work environment, resulting in a 15%
+                decrease in employee turnover.
+              </li>
+              <li>
+                Ensured regulatory compliance with a 95% compliance rate through
+                audits and risk assessments.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--5">
+      <div class="section__title section__title--experiences">
+        <h2 class="section__description">Internships and Experiences</h2>
+        <h3 class="section__header">
+          Here are some of the places I've worked at and the roles I've held.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="experience">
+            <h5 class="experience__header">
+              Software Engineer Intern at XYZ Corp
+            </h5>
+            <blockquote class="experience__text">
+              During my internship at XYZ Corp, I developed a scalable web
+              application using React and Node.js. Improved the performance of
+              the application by 30%.
+            </blockquote>
+            <address class="experience__details">
+              <!-- <img
+                src="img/xyz-corp-logo.jpg"
+                alt=""
+                class="experience__logo"
+              /> -->
+              <h6 class="experience__company">XYZ Corp</h6>
+              <p class="experience__location">San Francisco, USA</p>
+              <p class="experience__duration">June 2023 - August 2023</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="experience">
+            <h5 class="experience__header">Data Analyst Intern at ABC Inc</h5>
+            <blockquote class="experience__text">
+              Analyzed large datasets to extract actionable insights, leading to
+              a 15% increase in sales. Utilized Python and SQL for data
+              processing and analysis.
+            </blockquote>
+            <address class="experience__details">
+              <!-- <img src="img/abc-inc-logo.jpg" alt="" class="experience__logo" /> -->
+              <h6 class="experience__company">ABC Inc</h6>
+              <p class="experience__location">London, UK</p>
+              <p class="experience__duration">September 2022 - December 2022</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="experience">
+            <h5 class="experience__header">Web Developer at DEF Ltd</h5>
+            <blockquote class="experience__text">
+              Worked as a freelance web developer to create and maintain
+              websites for small businesses, resulting in a 20% increase in
+              client web traffic.
+            </blockquote>
+            <address class="experience__details">
+              <!-- <img src="img/def-ltd-logo.jpg" alt="" class="experience__logo" /> -->
+              <h6 class="experience__company">DEF Ltd</h6>
+              <p class="experience__location">Lisbon, Portugal</p>
+              <p class="experience__duration">January 2022 - May 2022</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contactId">
+      <aside class="container contact_container">
+        <div class="contact_container-left">
+          <div class="contact-image">
+            <img src="./assets/images/contact.jpg" alt="" />
+          </div>
+          <h4>Contact Ms</h4>
+          <p>
+            Thank you for visiting my portfolio! If you have any questions,
+            opportunities, or just want to connect, please feel free to reach
+            out. I look forward to hearing from you and will respond as soon as
+            possible.
+          </p>
+          <div>
+            <ion-icon name="call-outline"></ion-icon>
+            <p>+91 9523603263</p>
+            <ion-icon name="mail-open-outline"></ion-icon>
+            <p>ujjwalbit45@gmail.com</p>
+          </div>
+          <ul class="contact_social">
+            <li>
+              <a href="https://twitter.com/yourprofile"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </li>
+            <li>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+          </ul>
+        </div>
+
+        <form
+          action="https://formspree.io/f/xgebqpyv"
+          method="POST"
+          class="contact-form"
+        >
+          <div class="form_name">
+            <input
+              type="text"
+              name="First Name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="Last Name"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <input
+            type="text"
+            name="Email Address"
+            placeholder="Your Email I'D"
+            required
+          />
+          <textarea name="Message" id="" rows="7" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__message">
+          <p>Thank you for visiting my portfolio. Feel free to get in touch!</p>
+        </div>
+        <div class="footer__contact">
+          <p>Phone: +91 9523603263</p>
+          <p>Email: ujjwalbit45@gmail.com</p>
+        </div>
+        <div class="footer__socials">
+          <a href="https://twitter.com/yourprofile"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+          <a href="https://facebook.com/yourprofile"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a href="https://linkedin.com/in/yourprofile"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+          <a href="https://instagram.com/yourprofile"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </div>
+        <div class="footer__copyright">
+          <small>&copy; 2024 Ujjwal Kumar Singh. All Rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

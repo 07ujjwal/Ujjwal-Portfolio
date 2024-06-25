@@ -1,0 +1,16 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "base/reset";
+@import "base/typography";
+@import "components/buttons";
+@import "layout/sections";
+@import "base/animations";
+@import "./components/navbar";
+@import "./components/header";
+@import "./components/about-me";
+@import "./components/projects";
+@import "./components/skills";
+@import "./components/activities";
+@import "./components/experience";
+@import "./components/contact-me";
+@import "./components/footer";

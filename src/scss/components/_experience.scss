@@ -1,0 +1,192 @@
+.experience {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  &__header {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+
+    &__logo {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      margin-right: 1rem;
+    }
+
+    &__company {
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+
+    &__location,
+    &__duration {
+      font-size: 1.2rem;
+      color: #777;
+    }
+  }
+}
+
+.section {
+  padding: 5rem 0;
+  //   height: 100vh;
+
+  &__title--experiences {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    .section__description {
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .section__header {
+      font-size: 2.5rem;
+      color: #444;
+    }
+  }
+}
+
+.slider {
+  max-width: 75rem;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+
+  @include responsive(large) {
+    height: 40rem;
+  }
+
+  @include responsive(medium) {
+    height: 30rem;
+  }
+
+  @include responsive(small) {
+    height: 25rem;
+  }
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 50rem;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+
+  @include responsive(large) {
+    height: 50rem;
+  }
+
+  @include responsive(medium) {
+    height: 30rem;
+    padding: 1rem;
+  }
+
+  @include responsive(small) {
+    height: 25rem;
+    padding: 0.5rem;
+  }
+}
+
+.slider__btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 5.5rem;
+  width: 5.5rem;
+  font-size: 3.25rem;
+  cursor: pointer;
+
+  @include responsive(large) {
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 2.5rem;
+  }
+
+  @include responsive(medium) {
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 2rem;
+  }
+
+  @include responsive(small) {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+.slider__btn--left {
+  left: 2%;
+  transform: translate(-50%, -50%);
+}
+
+.slider__btn--right {
+  right: 2%;
+  transform: translate(50%, -50%);
+}
+
+.dots {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+
+  @include responsive(small) {
+    bottom: 3%;
+  }
+}
+
+.dots__dot {
+  border: none;
+  background-color: #b9b9b9;
+  opacity: 0.7;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  @include responsive(medium) {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-right: 1.25rem;
+  }
+
+  @include responsive(small) {
+    height: 0.6rem;
+    width: 0.6rem;
+    margin-right: 1rem;
+  }
+}
+
+.dots__dot:last-child {
+  margin: 0;
+}
+
+.dots__dot--active {
+  background-color: #888;
+  opacity: 1;
+}
