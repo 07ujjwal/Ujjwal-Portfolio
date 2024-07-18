@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal</title>
+
+    <link rel="stylesheet" href="/index.044e704e.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="/icon.7ae66568.png" alt="logo" class="nav__logo" id="logo" data-version-number="3.0">
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--4">Blog/Articles</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--5">Contact</a>
+          </li>
+        </ul>
+        <button class="nav__toggle nav__toggle--open" aria-label="open navigation">
+          &#9776;
+        </button>
+        <button class="nav__toggle nav__toggle--close" aria-label="close navigation">
+          &times;
+        </button>
+      </nav>
+      <div class="header__content">
+        <div class="header__title">
+          <h1>
+            Welcome 👋<br>
+            <span class="highlight">My Self Ujjwal Kumar Singh</span>
+          </h1>
+          <img src="/ujjwal.92761c90.jpg" alt="Your Name" class="header__img welcome-animation">
+          <h4>Showcasing my work and skills</h4>
+          <div class="btn_header">
+            <button class="btn--text btn--scroll-to" id="scrollToContact">
+              Contact Me &DownArrow;
+            </button>
+            <button class="btn btn--toggle-mode" id="toggleMode">
+              <ion-icon name="moon"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-me" id="section--1">
+      <div class="about-me__content">
+        <div class="about-me__text">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm Ujjwal, a passionate web developer with a love for
+            creating dynamic and beautiful web applications. I specialize in
+            MERN stack development and have a keen interest in learning new
+            technologies and frameworks. I am currently pursuing my B.Tech in
+            Computer Science & Engineering at Birla Institute of Technology,
+            Mesra (May 2021 - May 2025), with a CGPA of 7.56/10. My relevant
+            coursework includes Data Structures and Algorithms, Software
+            Engineering, Database Management System, Operating Systems, Data
+            Communication and Computer Networking, and Object-Oriented
+            Programming.
+          </p>
+        </div>
+        <div class="about-me__image">
+          <img src="/ujjwal.92761c90.jpg" alt="Ujjwal">
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+
+    <section class="projects" id="section--2">
+      <h2 class="projects__title">My Projects</h2>
+      <div class="projects__container"></div>
+      <a class="github_link" id="filter-button" href="https://github.com/07ujjwal" target="_blank">Show All Projects</a>
+    </section>
+
+    <!--Experiences-->
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--experiences">
+        <h2 class="section__description">Internships and Experiences</h2>
+        <h3 class="section__header">
+          Here are some of the places I've worked at and the roles I've held.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- skills -->
+
+    <section class="skills" id="section--4">
+      <h2 class="skills__title">Technical Skills</h2>
+      <div class="skills__container" id="skillsContainer"></div>
+    </section>
+
+    <!--activities-->
+
+    <section class="activities" id="section--5">
+      <div class="activities__container"></div>
+    </section>
+
+    <!--  -->
+
+    <section class="contact" id="contactId">
+      <aside class="container contact_container">
+        <div class="contact_container-left">
+          <div class="contact-image">
+            <img src="/contact.eb61eb2e.jpg" alt="">
+          </div>
+          <h4>Contact Me</h4>
+          <p>
+            Thank you for visiting my portfolio! If you have any questions,
+            opportunities, or just want to connect, please feel free to reach
+            out. I look forward to hearing from you and will respond as soon as
+            possible.
+          </p>
+          <div>
+            <ion-icon name="call-outline"></ion-icon>
+            <p>+91 9523603263</p>
+            <ion-icon name="mail-open-outline"></ion-icon>
+            <p>ujjwalbit45@gmail.com</p>
+          </div>
+          <ul class="contact_social">
+            <li>
+              <a href="https://medium.com/@ujjwalsingh_89964">
+                <ion-icon name="logo-medium"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/singh-ujjwal45">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/singh_ujjwal45">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/07ujjwal">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form action="https://formspree.io/f/xgebqpyv" method="POST" class="contact-form">
+          <div class="form_name">
+            <input type="text" name="First Name" placeholder="First Name" required="">
+            <input type="text" name="Last Name" placeholder="Last Name" required="">
+          </div>
+          <input type="text" name="Email Address" placeholder="Your Email I'D" required="">
+          <textarea name="Message" id="" rows="7" required=""></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__message">
+          <p>Thank you for visiting my portfolio. Feel free to get in touch!</p>
+        </div>
+        <div class="footer__contact">
+          <p>Phone: +91 9523603263</p>
+          <p>Email: ujjwalbit45@gmail.com</p>
+        </div>
+        <div class="footer__socials">
+          <a href="https://twitter.com/yourprofile"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="https://m.facebook.com/profile.php?id=100007561275950"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="https://www.linkedin.com/in/singh-ujjwal45"><ion-icon name="logo-linkedin"></ion-icon></a>
+          <a href="https://instagram.com/singh_ujjwal45"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <div class="footer__copyright">
+          <small>&copy; 2024 Ujjwal Kumar Singh. All Rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="/index.739bf03c.js" defer=""></script>
+  </body>
+</html>
