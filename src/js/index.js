@@ -1,6 +1,7 @@
 import { renderSkills } from "./components/skillsComponent";
 import { renderExperiences } from "./components/experiencesComponent";
 import { renderProjects } from "./components/projectsComponent.js";
+import { renderActivities } from "./components/ActivitiesComponent.js";
 
 document
   .querySelector(".nav__toggle--open")
@@ -60,6 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+//PROJECT CARDS
+
 document.addEventListener("DOMContentLoaded", () => {
   const projectCards = document.querySelectorAll(".project-card");
 
@@ -83,8 +86,34 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// darkMode
+
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleModeButton = document.getElementById("toggleMode");
+  const body = document.body;
+  const icon = toggleModeButton.querySelector("ion-icon");
+
+  function updateIcon(isDarkMode) {
+    icon.setAttribute("name", isDarkMode ? "sunny" : "moon");
+  }
+
+  toggleModeButton.addEventListener("click", function () {
+    body.classList.toggle("dark-mode");
+    const isDarkMode = body.classList.contains("dark-mode");
+    localStorage.setItem("darkMode", isDarkMode);
+    updateIcon(isDarkMode);
+  });
+
+  const isDarkMode = localStorage.getItem("darkMode") === "true";
+  if (isDarkMode) {
+    body.classList.add("dark-mode");
+  }
+  updateIcon(isDarkMode);
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   renderSkills();
   renderExperiences();
   renderProjects();
+  renderActivities();
 });

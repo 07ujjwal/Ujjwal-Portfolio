@@ -1,18 +1,24 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  color: #444;
+  color: var(--color-black);
   line-height: 1.9;
-  background-color: #f3f3f3;
+  background-color: var(--color-bg);
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: var(--color-bg1);
+  color: var(--color-light);
 }

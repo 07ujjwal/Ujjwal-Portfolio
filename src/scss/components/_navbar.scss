@@ -12,6 +12,7 @@
 
   &.sticky {
     position: fixed;
+    top: 0;
     background-color: var(--color-secondary);
   }
 
@@ -21,6 +22,7 @@
   }
 
   &__links {
+    color: #fff;
     display: flex;
     align-items: center;
     list-style: none;
@@ -35,6 +37,7 @@
   }
 
   &__link {
+    color: #fff;
     &--btn {
       padding: 0.8rem 2.5rem;
       border-radius: 3rem;

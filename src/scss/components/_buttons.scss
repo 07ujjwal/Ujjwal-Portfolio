@@ -1,6 +1,7 @@
 .btn {
   display: inline-block;
   background-color: var(--color-primary);
+  color: #fff;
   font-size: 1.6rem;
   font-family: inherit;
   font-weight: 500;
@@ -21,10 +22,14 @@
   font-size: 1.7rem;
   font-family: inherit;
   font-weight: 500;
-  color: var(--color-primary);
+  color: var(--color-white);
   border: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
   cursor: pointer;
   @include transition(all 0.3s);
+
+  &:hover {
+    color: var(--color-primary-darker);
+  }
 }

@@ -22,7 +22,7 @@
             <a class="nav__link" href="#section--1">About Me</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#section--2">Portfolio </a>
+            <a class="nav__link" href="#section--2">Portfolio</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="#section--3">Skills</a>
@@ -59,9 +59,14 @@
             class="header__img welcome-animation"
           />
           <h4>Showcasing my work and skills</h4>
-          <button class="btn--text btn--scroll-to" id="scrollToContact">
-            Contact Me &DownArrow;
-          </button>
+          <div class="btn_header">
+            <button class="btn--text btn--scroll-to" id="scrollToContact">
+              Contact Me &DownArrow;
+            </button>
+            <button class="btn btn--toggle-mode" id="toggleMode">
+              <ion-icon name="moon"></ion-icon>
+            </button>
+          </div>
         </div>
       </div>
     </header>
@@ -74,7 +79,13 @@
             Hello! I'm Ujjwal, a passionate web developer with a love for
             creating dynamic and beautiful web applications. I specialize in
             MERN stack development and have a keen interest in learning new
-            technologies and frameworks.
+            technologies and frameworks. I am currently pursuing my B.Tech in
+            Computer Science & Engineering at Birla Institute of Technology,
+            Mesra (May 2021 - May 2025), with a CGPA of 7.56/10. My relevant
+            coursework includes Data Structures and Algorithms, Software
+            Engineering, Database Management System, Operating Systems, Data
+            Communication and Computer Networking, and Object-Oriented
+            Programming.
           </p>
         </div>
         <div class="about-me__image">
@@ -83,74 +94,23 @@
       </div>
     </section>
 
+    <!-- projects -->
+
     <section class="projects" id="section--2">
       <h2 class="projects__title">My Projects</h2>
       <div class="projects__container"></div>
+      <a
+        class="github_link"
+        id="filter-button"
+        href="https://github.com/07ujjwal"
+        target="_blank"
+        >Show All Projects</a
+      >
     </section>
 
-    <!-- skills -->
+    <!--Experiences-->
 
-    <section class="skills" id="section--3">
-      <h2 class="skills__title">Technical Skills</h2>
-      <div class="skills__container" id="skillsContainer"></div>
-    </section>
-
-    <section class="activities" id="section--4">
-      <div class="activities__container">
-        <div class="activities__vlogs-articles">
-          <h3 class="activities__title">Vlogs & Articles</h3>
-          <ul class="activities__list">
-            <li><a href="#">Vlog 1: Title</a></li>
-            <li><a href="#">Article 1: Title</a></li>
-            <li><a href="#">Vlog 2: Title</a></li>
-            <li><a href="#">Article 2: Title</a></li>
-          </ul>
-        </div>
-        <div class="activities__extracurricular">
-          <h3 class="activities__title">Extracurricular Activities</h3>
-          <div class="activities__item">
-            <h4>
-              DRISTI (Directing Rural India towards Social and Technological
-              Integration)
-            </h4>
-            <p><strong>July 2022 – Present</strong></p>
-            <ul>
-              <li>
-                Lead a team of over 10 individuals to orchestrate initiatives
-                fostering rural welfare, positively impacting 100+ families.
-              </li>
-              <li>
-                Drove educational initiatives for children and empowered women
-                through skill development programs, increasing literacy rates by
-                30%.
-              </li>
-            </ul>
-          </div>
-          <div class="activities__item">
-            <h4>ACM, Association for Computing Machinery —— BIT Mesra</h4>
-            <p><strong>Sept 2022 - Oct 2023</strong></p>
-            <ul>
-              <li>
-                Conducted research contributing to a 20% increase in engagement
-                on the organization’s platforms.
-              </li>
-              <li>
-                Fostered a supportive work environment, resulting in a 15%
-                decrease in employee turnover.
-              </li>
-              <li>
-                Ensured regulatory compliance with a 95% compliance rate through
-                audits and risk assessments.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--  -->
-
-    <section class="section" id="section--5">
+    <section class="section" id="section--3">
       <div class="section__title section__title--experiences">
         <h2 class="section__description">Internships and Experiences</h2>
         <h3 class="section__header">
@@ -165,13 +125,28 @@
       </div>
     </section>
 
+    <!-- skills -->
+
+    <section class="skills" id="section--4">
+      <h2 class="skills__title">Technical Skills</h2>
+      <div class="skills__container" id="skillsContainer"></div>
+    </section>
+
+    <!--activities-->
+
+    <section class="activities" id="section--5">
+      <div class="activities__container"></div>
+    </section>
+
+    <!--  -->
+
     <section class="contact" id="contactId">
       <aside class="container contact_container">
         <div class="contact_container-left">
           <div class="contact-image">
             <img src="./assets/images/contact.jpg" alt="" />
           </div>
-          <h4>Contact Ms</h4>
+          <h4>Contact Me</h4>
           <p>
             Thank you for visiting my portfolio! If you have any questions,
             opportunities, or just want to connect, please feel free to reach
@@ -186,24 +161,25 @@
           </div>
           <ul class="contact_social">
             <li>
-              <a href="https://twitter.com/yourprofile"
-                ><ion-icon name="logo-twitter"></ion-icon
-              ></a>
+              <a href="https://medium.com/@ujjwalsingh_89964">
+                <ion-icon name="logo-medium"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/singh-ujjwal45">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
             </li>
             <li>
-              <a href="https://m.facebook.com/profile.php?id=100007561275950"
-                ><ion-icon name="logo-facebook"></ion-icon
-              ></a>
+              <a href="https://www.instagram.com/singh_ujjwal45">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/singh-ujjwal45"
-                ><ion-icon name="logo-linkedin"></ion-icon
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/singh_ujjwal45"
-                ><ion-icon name="logo-instagram"></ion-icon
-              ></a>
+              <a href="https://github.com/07ujjwal">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
             </li>
           </ul>
         </div>

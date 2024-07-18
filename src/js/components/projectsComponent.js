@@ -1,4 +1,3 @@
-// src/js/components/projectsComponent.js
 import { projectsData } from "../data/projectsData.js";
 
 export function renderProjects() {

@@ -12,6 +12,11 @@ export const skillsData = [
         level: 90,
         logo: "https://img.icons8.com/color/48/000000/javascript.png",
       },
+      {
+        name: "TypeScript",
+        level: 80,
+        logo: "https://img.icons8.com/color/48/000000/typescript.png",
+      },
     ],
   },
   {
@@ -26,6 +31,11 @@ export const skillsData = [
         name: "Express.js",
         level: 75,
         logo: "https://img.icons8.com/ios/50/000000/express-js.png",
+      },
+      {
+        name: "Microservices",
+        level: 70,
+        logo: "https://img.icons8.com/color/48/000000/microservices.png",
       },
     ],
   },
@@ -101,6 +111,31 @@ export const skillsData = [
         name: "GitHub",
         level: 85,
         logo: "https://img.icons8.com/fluent/48/000000/github.png",
+      },
+    ],
+  },
+  {
+    category: "DevOps",
+    skills: [
+      {
+        name: "Docker",
+        level: 75,
+        logo: "https://img.icons8.com/color/48/000000/docker.png",
+      },
+      {
+        name: "Kubernetes",
+        level: 60,
+        logo: "https://img.icons8.com/color/48/000000/kubernetes.png",
+      },
+      {
+        name: "Jenkins",
+        level: 65,
+        logo: "https://img.icons8.com/color/48/000000/jenkins.png",
+      },
+      {
+        name: "CI/CD",
+        level: 70,
+        logo: "https://img.icons8.com/color/48/000000/continuous-integration.png",
       },
     ],
   },

@@ -1,5 +1,5 @@
 footer {
-  background: var(--color-bg1);
+  background: var(--color-secondary);
   padding: 3rem 1rem;
   color: var(--color-light);
   text-align: center;
@@ -16,12 +16,13 @@ footer {
   .footer__message {
     font-size: 1.1rem;
     margin-bottom: 1rem;
-    color: aliceblue;
+    color: var(--color-light);
   }
 
   .footer__contact {
     p {
       margin: 0.5rem 0;
+      color: var(--color-light);
     }
   }
 
@@ -43,6 +44,7 @@ footer {
   .footer__copyright {
     margin-top: 2rem;
     font-size: 0.9rem;
+    color: var(--color-light);
   }
 
   @include responsive(medium) {

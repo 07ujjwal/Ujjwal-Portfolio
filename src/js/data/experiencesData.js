@@ -1,29 +1,21 @@
 export const experiencesData = [
   {
-    company: "XYZ Corp",
+    company: "Flipr Innovation Labs Private Limited",
     role: "Software Engineer Intern",
-    location: "San Francisco, USA",
-    duration: "June 2023 - August 2023",
+    location:
+      "97, 17th B Main Rd, 5th Block, Koramangala, Bengaluru, Karnataka 560095(Remote) ",
+    duration: "April-2024 to july-2024",
     description:
-      "During my internship at XYZ Corp, I developed a scalable web application using React and Node.js. Improved the performance of the application by 30%.",
-    logo: "img/xyz-corp-logo.jpg",
+      "During my internship at Flipr,I Developed a fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, providing an interactive and seamless learning experience for students and a robust platform for instructors to showcase their expertise and connect with learners globally..",
+    logo: "",
   },
   {
-    company: "ABC Inc",
-    role: "Data Analyst Intern",
-    location: "London, UK",
-    duration: "September 2022 - December 2022",
+    role: "Frontend Developer",
+    company: "Musocial Private Limited",
+    location: "JAMSHEDPUR, Jharkhand, India(Remote) ",
+    duration: "Jan 2023 - feb 2023",
     description:
-      "Analyzed large datasets to extract actionable insights, leading to a 15% increase in sales. Utilized Python and SQL for data processing and analysis.",
-    logo: "img/abc-inc-logo.jpg",
-  },
-  {
-    company: "DEF Ltd",
-    role: "Web Developer",
-    location: "Lisbon, Portugal",
-    duration: "January 2022 - May 2022",
-    description:
-      "Worked as a freelance web developer to create and maintain websites for small businesses, resulting in a 20% increase in client web traffic.",
-    logo: "img/def-ltd-logo.jpg",
+      "As a Frontend Developer at Musocial Private Limited, I developed and maintained the user interface of web applications. I utilized technologies such as HTML5, CSS, Bootstrap, and JavaScript to create responsive and interactive user experiences. My role also involved collaborating with the design team to implement visually appealing and user-friendly features.",
+    logo: "",
   },
 ];

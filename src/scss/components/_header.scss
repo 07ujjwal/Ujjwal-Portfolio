@@ -1,21 +1,28 @@
 .header {
   height: auto;
-  margin: 2rem, 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6rem;
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: var(--color-bg1);
   background-image: url("../../assets/images/background-1.jpg");
   background-size: cover;
   background-position: center;
-  color: #fff;
+  color: var(--color-light);
 
   @include responsive(small) {
     width: auto;
     font-size: 1rem;
   }
+}
+
+.btn_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .header__content {
@@ -30,12 +37,14 @@
   font-size: 5.5rem;
   line-height: 1.35;
   margin-bottom: 1rem;
+  color: var(--color-light);
 }
 
 .header__title h4 {
   font-size: 2.4rem;
   font-weight: 500;
   margin-bottom: 2rem;
+  color: var(--color-light);
 }
 
 .header__img {
