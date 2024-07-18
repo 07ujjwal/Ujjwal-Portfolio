@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: center;
   color: var(--color-light);
+  font-family: "Segoe UI";
 
   @include responsive(small) {
     width: auto;

@@ -16,13 +16,13 @@ footer {
   .footer__message {
     font-size: 1.1rem;
     margin-bottom: 1rem;
-    color: var(--color-light);
+    color: var(--color-white);
   }
 
   .footer__contact {
     p {
       margin: 0.5rem 0;
-      color: var(--color-light);
+      color: var(--color-white);
     }
   }
 
@@ -32,7 +32,7 @@ footer {
     font-size: 1.5rem;
 
     a {
-      color: var(--color-light);
+      color: var(--color-white);
       @include transition(var(--transition));
 
       &:hover {
@@ -44,7 +44,7 @@ footer {
   .footer__copyright {
     margin-top: 2rem;
     font-size: 0.9rem;
-    color: var(--color-light);
+    color: var(--color-white);
   }
 
   @include responsive(medium) {

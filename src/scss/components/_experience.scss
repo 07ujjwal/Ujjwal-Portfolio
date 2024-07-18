@@ -1,9 +1,12 @@
 .section {
   padding: 5rem 0;
-  height: 75vh;
+  height: 80vh;
+  border-radius: 20px;
+  background-color: var(--color-primary);
+  width: auto;
 
   @include responsive(small) {
-    height: 120vh;
+    height: 100vh;
   }
 
   &__title--experiences {
@@ -12,12 +15,12 @@
 
     .section__description {
       font-size: 2rem;
-      color: var(--color-tertiary);
+      color: var(--color-white);
     }
 
     .section__header {
       font-size: 2.5rem;
-      color: var(--color-success);
+      color: var(--color-white);
     }
   }
 }
@@ -29,16 +32,9 @@
   position: relative;
   overflow: hidden;
 
-  @include responsive(large) {
-    height: 40rem;
-  }
-
-  @include responsive(medium) {
-    height: 30rem;
-  }
-
   @include responsive(small) {
-    height: 100%;
+    height: 50rem;
+    border-radius: 20px;
   }
 }
 
@@ -52,9 +48,9 @@
   justify-content: center;
   transition: transform 1s;
 
-  @include responsive(large) {
-    height: 50rem;
-  }
+  // @include responsive(large) {
+  //   height: 50rem;
+  // }
 
   @include responsive(medium) {
     height: 30rem;
@@ -72,7 +68,7 @@
   top: 50%;
   z-index: 10;
   border: none;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(166, 166, 166, 0.7);
   font-family: inherit;
   color: var(--color-black);
   border-radius: 50%;
@@ -157,18 +153,16 @@
 
 .experience {
   padding: 2rem;
-  background: var(--color-white);
+  background: var(--color-secondary);
   border-radius: 10px;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(105, 105, 105, 0.1);
   color: var(--color-tertiary-darker);
   margin: 5rem;
-  background-image: url("../../assets/images/background-1.jpg");
-  background-size: cover;
 
   @include responsive(small) {
     height: 100vh;
@@ -184,7 +178,7 @@
   &__text {
     font-size: 1.4rem;
     margin-bottom: 1.5rem;
-    color: var(--color-success);
+    color: var(--color-white);
   }
 
   &__details {
@@ -212,7 +206,7 @@
     &__location,
     &__duration {
       font-size: 1.2rem;
-      color: var(--color-secondary-opacity);
+      color: var(--color-warning);
     }
   }
 }
