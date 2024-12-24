@@ -1,46 +1,49 @@
-<h1 align="center">Welcome to Ujjwal's Portfolio</h1>
+<h2 align="left">Hi 👋! My name is Ujjwal Kumar Singh, and I'm a MERN Stack Developer, from India</h2>
 
-<p align="center">
-  <a href="https://github.com/yourusername/ujjwal-portfolio"><img src="https://img.shields.io/badge/Portfolio-Ujjwal's_Portfolio-blue"></a>
-  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue"></a>
-  <a href="mailto:ujjwalbit45@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-red"></a>
-</p>
+###
 
-<p align="center">Welcome to my personal portfolio repository! This project showcases my skills, projects, and professional background as a Software Development Engineer (SDE).</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=07ujjwal&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=07ujjwal&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/yourusername/portfolio-screenshot.png" alt="Portfolio Screenshot" width="800">
-</p>
+###
 
-## Overview
+<img align="right" height="150" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif"  />
 
-This portfolio is designed to provide an insight into my work and experience. It includes various sections such as:
+###
 
-- **About Me**: A brief introduction about who I am, my background, and my interests.
-- **Projects**: A showcase of some of the significant projects I have worked on, including descriptions, technologies used, and links to the live projects or repositories.
-- **Skills**: A list of my technical skills and proficiencies.
-- **Contact Me**: A section where you can find my contact details and a form to get in touch with me.
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
+</div>
 
-## Features
+###
 
-- **Responsive Design**: The portfolio is fully responsive and works seamlessly on various devices.
-- **Interactive UI**: Engaging and user-friendly interface.
-- **Modern Technologies**: Built with HTML, SCSS, and JavaScript, and leveraging modern web development practices.
+<div align="left">
+  <img src="https://img.shields.io/static/v1?message=Portfolio&logo=portfolio&label=&color=000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="portfolio logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=171515&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="github logo"  />
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+</div>
 
-## Getting Started
+###
 
-To get a local copy up and running, follow these steps:
+<br clear="both">
 
-### Prerequisites
+<img src="https://raw.githubusercontent.com/07ujjwal/07ujjwal/output/snake.svg" alt="Snake animation" />
 
-Make sure you have the following installed on your local machine:
-
-- [Node.js](https://nodejs.org/) (includes npm)
-- [Parcel](https://parceljs.org/) (for bundling the project)
-
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/ujjwal-portfolio.git
-   ```
+###
